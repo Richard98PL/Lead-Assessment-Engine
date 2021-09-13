@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BatchLeadAssessment</members>
+        <members>BatchLeadAssessmentScheduler</members>
+        <members>LeadAssessmentService</members>
+        <members>LeadAssessmentServiceTest</members>
+        <members>Utils</members>
+        <members>UtilsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Azure_B2C_Lead_Integration_Fields.Configuration</members>
+        <members>Lead_Assessment_Delay.Configuration</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Azure_B2C_Lead_Integration_Fields__mdt</members>
+        <members>Lead</members>
+        <members>Lead_Assessment_Action__c</members>
+        <members>Lead_Assessment_Condition__c</members>
+        <members>Lead_Assessment_Delay__mdt</members>
+        <members>Lead_Assessment_Log__c</members>
+        <members>Lead_Assessment_Query__c</members>
+        <members>Lead_Assessment_Rule__c</members>
+        <members>Lead_Assessment_Type__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Lead_Assessment_Log__c</members>
+        <members>Lead_Assessment_Type__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Azure_B2C_Lead_Integration_Fields__mdt-Azure B2C Lead Integration Fields Layout</members>
+        <members>Lead_Assessment_Action__c-Lead Assessment Action Layout</members>
+        <members>Lead_Assessment_Condition__c-Lead Assessment Condition Layout</members>
+        <members>Lead_Assessment_Delay__mdt-Lead Assessment Delay Layout</members>
+        <members>Lead_Assessment_Log__c-Lead Assessment Log Layout</members>
+        <members>Lead_Assessment_Query__c-Lead Assessment Query Layout</members>
+        <members>Lead_Assessment_Rule__c-Lead Assessment Rule Layout</members>
+        <members>Lead_Assessment_Type__c-Lead Assessment Type Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>leadAssesmentQueryVerify</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Lead_Distributor_B2C_Dev</members>
+        <members>Lead_Distributor_B2C_Prod</members>
+        <members>Lead_Distributor_B2C_Test</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>Lead_Assessment</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Lead_Assessment_Rule__c.Verify_Queries</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Lead_Distributor_B2C_Dev</members>
+        <members>Lead_Distributor_B2C_Prod</members>
+        <members>Lead_Distributor_B2C_Test</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>52.0</version>
+</Package>

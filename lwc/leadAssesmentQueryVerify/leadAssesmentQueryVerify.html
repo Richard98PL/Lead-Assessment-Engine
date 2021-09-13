@@ -1,0 +1,53 @@
+<template>
+    <div class="slds-box slds-is-relative">
+        <div style="width: auto; padding: 2%; max-height:600px;" if:true={simpleRows}>
+            <lightning-card title="Simple Query" icon-name="standard:lead" >
+            <lightning-datatable if:true={simpleRows}
+                                 key-field="Validation"
+                                 data={simpleRows}
+                                 columns={simpleColumns}
+                                 resize-column-disabled
+                                 hide-checkbox-column="true"
+                                 column-widths-mode = "auto"
+                                 min-column-width = 100
+                                 resize-step = 1
+            >
+            </lightning-datatable>
+            </lightning-card>
+        </div>
+
+        <div style="width: auto; padding: 2%; max-height:600px;" if:true={complexRows}>
+            <lightning-card title="Complex Queries" icon-name="standard:lead" >
+                <lightning-datatable if:true={complexRows}
+                                     key-field="Validation"
+                                     data={complexRows}
+                                     columns={complexColumns}
+                                     resize-column-disabled
+                                     hide-checkbox-column="true"
+                                     column-widths-mode = "auto"
+                                     min-column-width = 100
+                                     resize-step = 1
+                >
+                </lightning-datatable>
+            </lightning-card>
+        </div>
+
+        <div style="width: auto; padding: 2%; max-height:600px;" if:true={actionsRows}>
+            <lightning-card title="Actions" icon-name="standard:branch_merge" >
+                <lightning-datatable if:true={actionsRows}
+                                     key-field="Validation"
+                                     data={actionsRows}
+                                     columns={actionsColumns}
+                                     resize-column-disabled
+                                     hide-checkbox-column="true"
+                                     column-widths-mode = "auto"
+                                     min-column-width = 100
+                                     resize-step = 1
+                >
+                </lightning-datatable>
+            </lightning-card>
+        </div>
+
+        <lightning-spinner if:true={showSpinner} alternative-text="Loading" size="medium" variant="brand"></lightning-spinner>
+    </div>
+</template>
